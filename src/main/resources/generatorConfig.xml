@@ -16,9 +16,9 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/mybatis"
+                        connectionURL="jdbc:mysql://localhost:3306/demo"
                         userId="root"
-                        password="199498xy">
+                        password="11111111">
         </jdbcConnection>
 
         <!--Java类型解析器不应该强制型对象字段BigDecimal的使用，此功能是为了使数据库DECIMAL和NUMERIC列容易处理-->

@@ -26,7 +26,8 @@ public class UserController {
     @ResponseBody
     public List<User> getAllUsers(@PathVariable String id){
         List<User> users = userService.findAllUsers();
-        logger.info("Load all users");
+        int a = 3;
+        logger.info("Load all users1");
         return users;
     }
 }

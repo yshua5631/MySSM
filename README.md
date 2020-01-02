@@ -25,9 +25,16 @@
       java -jar start.jar
       ````
       * Note: default port is 8080. It seems that 8080 port is also important
-* How to debug remote jvm? 
+* How to debug remote jvm?
+    * add parameter when start jetty
+        ```
+        java -jar -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 start.jar
+        ```
+    * set remote config, it looks like:
+       ![avatar](imgs/intellij-remote-debug.JPG)
 * why code step into spring framework in debug mode?
 * It is better not to set absolute path for database driven?  
+* How to implement hot reload?
 * How to verify SSM?
   * default URL: http://localhost:10086/user/1
   * home page: http://localhost:10086/index.jsp

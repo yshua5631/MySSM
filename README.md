@@ -32,6 +32,7 @@
         ```
     * set remote config, it looks like:
        ![avatar](imgs/intellij-remote-debug.JPG)
+    * time consuming: 15mins
 * why code step into spring framework in debug mode?
 * It is better not to set absolute path for database driven?  
 * How to implement hot reload?

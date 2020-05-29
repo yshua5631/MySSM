@@ -33,13 +33,6 @@
     </dependency>
 
     <dependency>
-      <groupId>io.qameta.allure</groupId>
-      <artifactId>allure-commandline</artifactId>
-      <version>2.13.1</version>
-      <type>pom</type>
-    </dependency>
-
-    <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>${spring.version}</version>
@@ -115,14 +108,6 @@
     </dependency>
     <!-- JSON end -->
 
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-devtools</artifactId>
-      <version>1.5.9.RELEASE</version>
-      <optional>true</optional>
-      <scope>runtime</scope>
-    </dependency>
-
     <!--mybatis start-->
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -180,13 +165,6 @@
     <finalName>MySSM</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <plugin>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-maven-plugin</artifactId>
-          <configuration>
-            <fork>true</fork>
-          </configuration>
-        </plugin>
         <plugin>
           <groupId>org.eclipse.jetty</groupId>
           <artifactId>jetty-maven-plugin</artifactId>
